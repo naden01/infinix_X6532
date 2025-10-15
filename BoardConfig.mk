@@ -114,8 +114,8 @@ BOARD_VNDK_VERSION := current
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_Infinix-X6532
-TARGET_RECOVERY_DEVICE_MODULES := libinit_Infinix-X6532
+TARGET_INIT_VENDOR_LIB := libinit_infinix-X6532
+TARGET_RECOVERY_DEVICE_MODULES := libinit_infinix-X6532
 
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -175,7 +175,7 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_NO_FLASH_CURRENT_TWRP := true
-TW_DEVICE_VERSION := nazephyrus | KL5
+TW_DEVICE_VERSION := nazephyrus | X6532
 
 # no recovery partition
 TW_HAS_NO_RECOVERY_PARTITION := true
