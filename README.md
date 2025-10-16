@@ -1,4 +1,4 @@
-# Twrp Tree For Tecno Spark 30C (KL5)
+# Twrp Tree For Infinix Smart 9 (X6532)
 
 # Checks
 Blocking checks
@@ -35,9 +35,3 @@ Minor checks
 - [✔] screenshot
 - [✔] partition SD card
 - [✔] Fastbootd
-
-# Clone
-    git clone https://github.com/naden01/android_device_tecno_KL5.git -b android-12.1 device/tecno/KL5
-
-# Build
-    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_KL5-eng; mka vendorbootimage
