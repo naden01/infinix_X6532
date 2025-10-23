@@ -178,3 +178,4 @@ tkv_recovery.ko
 tnek.ko
 thd.ko
 dynamic_readhead.ko
+regulator-vibrator.ko
