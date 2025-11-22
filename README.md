@@ -31,7 +31,7 @@ Minor checks
 - [✔] input devices via USB (USB-OTG) - keyboard and mouse and storage
 - [✔] USB mass storage export
 - [✔] set brightness
-- [X] vibrate
+- [ X ] vibrate
 - [✔] screenshot
 - [✔] partition SD card
 - [✔] Fastbootd
