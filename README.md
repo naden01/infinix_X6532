@@ -1,4 +1,4 @@
-# Twrp Tree For Tecno Spark 30C (KL5)
+# Twrp Tree For Infinix Smart 9 (X6532)
 
 # Checks
 Blocking checks
@@ -28,7 +28,7 @@ Minor checks
 - [✔] battery level
 - [✔] temperature
 - [✔] encrypted backups
-- [X] input devices via USB (USB-OTG) - keyboard and mouse and storage
+- [✔] input devices via USB (USB-OTG) - keyboard and mouse and storage
 - [✔] USB mass storage export
 - [✔] set brightness
 - [X] vibrate
@@ -36,8 +36,8 @@ Minor checks
 - [✔] partition SD card
 - [✔] Fastbootd
 
-# Clone
-    git clone https://github.com/naden01/android_device_tecno_KL5.git -b android-12.1 device/tecno/KL5
+# Clone (example)
+    git clone https://github.com/naden01/infinix_X6532.git -b android-12.1 device/infinix/X6532 
 
 # Build
-    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_KL5-eng; mka vendorbootimage
+    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_X6532-eng; mka vendorbootimage
