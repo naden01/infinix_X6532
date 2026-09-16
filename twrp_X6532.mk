@@ -12,6 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
+# Include Fox props
+$(call inherit-product, device/infinix/X6532/fox.mk)
+
 PRODUCT_DEVICE := X6532
 PRODUCT_NAME := twrp_X6532
 PRODUCT_BRAND := INFINIX
