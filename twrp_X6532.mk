@@ -9,9 +9,6 @@ $(call inherit-product, device/infinix/X6532/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
-# Include Fox props
-$(call inherit-product, device/infinix/X6532/fox.mk)
-
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
