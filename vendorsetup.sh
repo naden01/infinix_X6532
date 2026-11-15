@@ -34,6 +34,12 @@ export OF_STATUS_INDENT_RIGHT=48
 export OF_ALLOW_DISABLE_NAVBAR=0
 export OF_CLOCK_POS=1
 
+export FOX_VENDOR_BOOT_RECOVERY=1
+export FOX_INSTALLER_VENDOR_BOOT_RAMDISK_INSTALL=0
+export FOX_RECOVERY_VENDOR_BOOT_PARTITION="/dev/block/by-name/vendor_boot"
+export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
+export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
+
 # maintainer 
 export OF_MAINTAINER_AVATAR="$(gettop)/device/infinix/X6532/maintainer_avatar.png"
 cp "${OF_MAINTAINER_AVATAR}" "$(gettop)/bootable/recovery/gui/theme/portrait_hdpi/images/Default/About/maintainer.png"
